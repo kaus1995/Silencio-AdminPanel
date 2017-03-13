@@ -8,12 +8,19 @@
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
             <link rel="stylesheet" type="text/css" href="Logincss.css">
+            <script>
+                $(function(){
+    $('#login').click(function(){
+        window.location='LoginSuccess.html'
+    });
+});
+            </script>
         </head>
         <body>
             <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color:#800040;">
                 <div class="container-fluid">
                     <div class="navbar-header">
-                        <a class="pull-left"><img src="D:\WebProjects\Image\logo.png" alt="Silencio" class=""></a>
+                        <a><img id="img1" src="logo.png" alt="Silencio" class="img-responsive"></a>
                     </div>
                 </div>
             </nav>
@@ -22,7 +29,7 @@
                 <h3 class="h3 text-center text-info">Please Login to Continue</h3>
             </div>
             <div class="contaioner-fluid">
-                <form>
+                <form method="Get" action="LoginSuccess.html">
                     <div class="well">
                         <div class="form-group">
                             <label for="id"></label>
@@ -32,9 +39,9 @@
                             <label for="pwd"></label>
                             <input type="name" id="pwd" class="form-control" placeholder="Password" required>
                         </div>
-                        
+                        <button id= "login"class="btn col-xs-4 btn-primary">Login</button>
                     </div>
-                    <a href="LoginSuccess.html"><button class="btn col-xs-4 btn-primary">Login</button></a>
+                    
                 </form>
             </div>
         </body>

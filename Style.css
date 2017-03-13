@@ -8,6 +8,11 @@
 }
 h1{
     padding-top:10%;
+    
+}
+
+.heading{
+    padding-top:0%;
 }
 
 button{
@@ -15,9 +20,30 @@ button{
     margin-top: 5%;
 }
 
-img{
+#img1{
     padding-top:5%;
     padding-bottom:5%;
-     width:150px;
-     height:70px;
+    width:150px;
+    height:70px;
+}
+
+#img2{
+    padding-top:10%;
+    margin-left:46%;
+    width:7%;
+    height:7%;
+}
+
+#img3{
+    padding-top:10%;
+    margin-left:46%;
+    width:7%;
+    height:7%;
+}
+
+#img4{
+    padding-top:10%;
+    margin-left:46%;
+    width:7%;
+    height:7%;
 }
